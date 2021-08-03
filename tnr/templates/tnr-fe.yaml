@@ -11,6 +11,6 @@ spec:
     server: {{ .Values.spec.destination.server }}
   project: default
   source:
-    path: multi-tier-kubernetes
-    repoURL: https://github.com/HasseneFliss
+    path: ./k8s
+    repoURL: https://github.com/HasseneFliss/multi-tier-kubernetes
     targetRevision: {{ .Values.spec.source.targetRevision }}
