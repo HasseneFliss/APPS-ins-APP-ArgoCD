@@ -2,5 +2,5 @@ spec:
   destination:
     server: https://kubernetes.default.svc
   source:
-    repoURL: https://github.com/HasseneFliss
+    repoURL: https://github.com/HasseneFliss/pass
     targetRevision: HEAD
