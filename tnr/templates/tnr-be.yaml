@@ -11,6 +11,6 @@ spec:
     server: {{ .Values.spec.destination.server }}
   project: default
   source:
-    path: kubernetes_is_here
-    repoURL: https://github.com/HasseneFliss
+    path: configuration/kustomize
+    repoURL: https://github.com/HasseneFliss/kubernetes_is_here
     targetRevision: {{ .Values.spec.source.targetRevision }}
